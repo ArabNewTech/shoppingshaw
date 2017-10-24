@@ -1,0 +1,1 @@
+ALTER TABLE `mt_merchant` ADD `type` INT NOT NULL AFTER `invoice_terms`, ADD INDEX `type.merchant_type_id` (`type`);

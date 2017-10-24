@@ -1,0 +1,40 @@
+[24-Aug-2017 14:04:24 UTC] PHP Fatal error:  Uncaught exception 'CException' with message 'Alias "mobileapp.MobileappModule" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/YiiBase.php:323
+Stack trace:
+#0 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/YiiBase.php(196): YiiBase::import('mobileapp.Mobil...', true)
+#1 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/base/CModule.php(282): YiiBase::createComponent('mobileapp.Mobil...', 'mobileapp', NULL, Array)
+#2 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/web/CWebApplication.php(337): CModule->getModule('mobileapp')
+#3 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/web/CWebApplication.php(276): CWebApplication->createController('mobileapp/index')
+#4 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/web/CWebApplication.php(141): CWebApplication->runController('mobileapp/index')
+#5 /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/base/CAp in /home/arabnewtechrocks/public_html/shopingshaw/yiiframework/YiiBase.php on line 323
+[25-Aug-2017 10:16:09 Africa/Cairo] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 2225
+[25-Aug-2017 11:07:11 Africa/Cairo] PHP Parse error:  syntax error, unexpected end of file in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 594
+[25-Aug-2017 11:16:04 Africa/Cairo] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 739
+[25-Aug-2017 11:16:05 Africa/Cairo] PHP Parse error:  syntax error, unexpected ''branch' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 1037
+[25-Aug-2017 11:40:16 Africa/Cairo] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 701
+[25-Aug-2017 11:40:16 Africa/Cairo] PHP Parse error:  syntax error, unexpected ''Please Selec' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/arabnewtechrocks/public_html/shoppingshaw/protected/messages/ar/default.php on line 873
+[25-Aug-2017 11:56:53 Africa/Cairo] PHP Deprecated:  Non-static method EmailTPL::bookingApproved() should not be called statically, assuming $this from incompatible context in /home/arabnewtechrocks/public_html/shoppingshaw/protected/views/merchant/tablebooking-settings.php on line 16
+[25-Aug-2017 11:56:53 Africa/Cairo] PHP Deprecated:  Non-static method EmailTPL::bookingDenied() should not be called statically, assuming $this from incompatible context in /home/arabnewtechrocks/public_html/shoppingshaw/protected/views/merchant/tablebooking-settings.php on line 19
+[26-Aug-2017 09:31:59 UTC] PHP Fatal error:  Uncaught exception 'CHttpException' with message 'Unable to resolve the request "login/index".' in /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php(141): CWebApplication->runController('login/index')
+#1 /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/arabnewtechrocks/public_html/shoppingshaw/index.php(48): CApplication->run()
+#3 {main}
+  thrown in /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php on line 286
+[28-Aug-2017 13:38:31 UTC] PHP Fatal error:  Uncaught exception 'CHttpException' with message 'Unable to resolve the request "marchent/index".' in /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php(141): CWebApplication->runController('marchent/index')
+#1 /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /home/arabnewtechrocks/public_html/shoppingshaw/index.php(48): CApplication->run()
+#3 {main}
+  thrown in /home/arabnewtechrocks/public_html/shoppingshaw/yiiframework/web/CWebApplication.php on line 286
+[30-Aug-2017 12:54:42 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[31-Aug-2017 21:36:36 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[02-Sep-2017 02:06:36 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[03-Sep-2017 06:43:50 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[04-Sep-2017 10:09:08 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[05-Sep-2017 17:26:02 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[07-Sep-2017 07:55:55 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[08-Sep-2017 19:04:28 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[04-Oct-2017 01:53:11 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174
+[05-Oct-2017 10:04:51 Africa/Cairo] PHP Fatal error:  Method name must be a string in /home/arabnewtechrocks/public_html/shoppingshaw/protected/controllers/AdminController.php on line 174

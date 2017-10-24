@@ -1,0 +1,27 @@
+.newPage{
+    padding: 100px 0px;
+}
+.padd-t-b{
+    padding: 30px 0px;
+}
+.block_001{
+    background: #f3f3f3;
+    display: inline-block;
+}
+.hierarchy-select{
+    width: 100%;
+}
+.add_m_blocks{
+    margin: 15px 0;
+}
+/* - // - // - START : MEDIA-QUERY   - // - //  */
+
+/**for mobile phones**/
+@media only screen and (max-width: 480px), only screen and (max-device-width:480px) {}
+/**for tablet with medium screen**/
+@media only screen and (max-width: 768px), only screen and (max-device-width:768px) {}
+/**for tablet with large screen**/
+@media only screen and (max-width: 960px), only screen and (max-device-width:960px) {}
+
+
+/* - // - // - END : MEDIA-QUERY  - // - //  */

@@ -1,0 +1,42 @@
+html,body{
+    text-align: right;
+    direction: rtl;
+}
+.left,.uk-form-horizontal .uk-form-label,.uk-form-horizontal .uk-form-label,.uk-tab>li{
+    float:right;
+}
+
+.right{
+    float:left;
+}
+.main_content .inner {
+    padding-left: 0;
+    padding-right: 250px;
+}
+
+.sms_credit_wrap{
+    right: auto;
+    left: 100px;
+}
+.language-wrapper{
+    right: auto;
+    left: 20px;
+}
+.chosen-container .chosen-drop{
+    left: auto;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 960px) {
+    .uk-form-horizontal .uk-form-label,.uk-form-horizontal .uk-form-label {
+        float: right !important;
+    }
+}
